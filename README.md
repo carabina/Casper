@@ -19,10 +19,9 @@ Casper is a lightweight and highly customisable framework which extends the usab
 </p>
 
 ## Contents
-
-* [Requirements]
-* [Installation]
-* [Usage]
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
 
 
 ## Requirements
