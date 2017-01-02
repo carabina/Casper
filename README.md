@@ -17,3 +17,50 @@ Casper is a lightweight and highly customisable framework which extends the usab
 <img src="https://cloud.githubusercontent.com/assets/2684979/21589674/545ccb82-d11a-11e6-94a0-56dc8dff4f59.gif" width="220"/>
 <img src="https://cloud.githubusercontent.com/assets/2684979/21589675/5461d604-d11a-11e6-8033-66de77fa794b.gif" width="220"/>
 </p>
+
+## Contents
+
+* [Requirements]
+* [Installation]
+* [Usage]
+
+
+## Requirements
+
+* iOS 9.0+
+* Xcode 8+
+* Swift 3
+
+## Installation
+
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+> CocoaPods 1.1.0+ is required to build Casper.
+
+To integrate Casper into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'Casper'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Example project
+
+You can clone and run the Example project to see examples of most of Casper's features.
