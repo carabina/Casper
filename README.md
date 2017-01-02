@@ -13,7 +13,7 @@ Casper is a lightweight and highly customisable framework which extends the usab
 ## Overview
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/2684979/21588624/ecc33ffc-d10e-11e6-82e6-befffcc26131.gif" width="220"/>
-<img src="https://cloud.githubusercontent.com/assets/2684979/21589535/b5b18794-d118-11e6-8589-3456191528e5.gif" width="220"/>
-<img src="https://cloud.githubusercontent.com/assets/2684979/21589536/b5f33ef0-d118-11e6-98d2-92411f6945a6.gif" width="220"/>
+<img src="https://cloud.githubusercontent.com/assets/2684979/21589673/545b5964-d11a-11e6-9d64-56c488b6b2bc.gif" width="220"/>
+<img src="https://cloud.githubusercontent.com/assets/2684979/21589674/545ccb82-d11a-11e6-94a0-56dc8dff4f59.gif" width="220"/>
+<img src="https://cloud.githubusercontent.com/assets/2684979/21589675/5461d604-d11a-11e6-8033-66de77fa794b.gif" width="220"/>
 </p>
