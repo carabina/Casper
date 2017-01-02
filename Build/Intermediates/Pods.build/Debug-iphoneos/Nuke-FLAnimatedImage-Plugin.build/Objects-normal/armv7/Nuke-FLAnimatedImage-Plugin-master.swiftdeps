@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "176e76ac83a4f272385e5ccfc5b6825c"
+build_time: [536659919, 624640000]
+inputs:
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke-FLAnimatedImage-Plugin/Source/AnimatedImage.swift": [536582223, 0]

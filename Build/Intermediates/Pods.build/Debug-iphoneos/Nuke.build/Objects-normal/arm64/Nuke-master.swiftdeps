@@ -1,0 +1,17 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "d11140d67ecb2d3e67071a667d2f2195"
+build_time: [536659891, 885807000]
+inputs:
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Cache.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/CancellationToken.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/DataDecoder.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/DataLoader.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Deduplicator.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Loader.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Manager.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Nuke.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Preheater.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Processor.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Promise.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Request.swift": [536582223, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Pods/Nuke/Sources/Scheduler.swift": [536582223, 0]

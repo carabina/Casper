@@ -1,0 +1,24 @@
+PODS:
+  - Eureka (2.0.0-beta.1)
+  - FLAnimatedImage (1.0.12)
+  - Nuke (4.1.2)
+  - Nuke-FLAnimatedImage-Plugin (2.1):
+    - FLAnimatedImage (~> 1.0)
+    - Nuke (~> 4.0)
+  - QRCode (2.0)
+
+DEPENDENCIES:
+  - Eureka (~> 2.0.0-beta.1)
+  - Nuke-FLAnimatedImage-Plugin
+  - QRCode
+
+SPEC CHECKSUMS:
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Nuke: 7cfd2acdf90c36f66e6ea40795bac0d851a9afe0
+  Nuke-FLAnimatedImage-Plugin: 26bd7346d751486d8bf5321d563e285b3b6d636d
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+
+PODFILE CHECKSUM: 239d70cf6dd4653e41ff0e9cd36e7b254111ec0a
+
+COCOAPODS: 1.1.1

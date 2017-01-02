@@ -1,0 +1,539 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RatingsCell"
+- "RatingsRow"
+provides-nominal:
+- "C6Casper11RatingsCell"
+- "C6Casper10RatingsRow"
+provides-member:
+- ["C6Casper11RatingsCell", ""]
+- ["C6Casper10RatingsRow", ""]
+provides-dynamic-lookup:
+- "ratingViewTitle"
+- "ratingsViewValueChanged"
+- "setup"
+- "update"
+depends-top-level:
+- "String"
+- "AssignmentPrecedence"
+- "RowType"
+- "Row"
+- "EZRatingView"
+- "CGFloat"
+- !private "!="
+- "RatingsRow"
+- "CellType"
+- "Cell"
+- !private "CellProvider"
+- !private "StringLiteralType"
+- "UILabel"
+- "RatingsCell"
+depends-member:
+- !private ["Ps9AnyObject", "CellProvider"]
+- !private ["Ps9AnyObject", "cellProvider"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "ratingView"]
+- ["Ps9AnyObject", "ratingViewTitle"]
+- ["Ps9AnyObject", "ratingsViewValueChanged"]
+- !private ["Ps9AnyObject", "row"]
+- ["Ps9AnyObject", "setup"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "update"]
+- !private ["Ps9AnyObject", "updateCell"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["C6Eureka8BaseCell", "EZRatingView"]
+- ["C6Eureka8BaseCell", "UILabel"]
+- ["C6Eureka8BaseCell", "init"]
+- !private ["C6Eureka8BaseCell", "ratingView"]
+- ["C6Eureka8BaseCell", "ratingViewTitle"]
+- ["C6Eureka8BaseCell", "ratingsViewValueChanged"]
+- !private ["C6Eureka8BaseCell", "row"]
+- ["C6Eureka8BaseCell", "setup"]
+- ["C6Eureka8BaseCell", "update"]
+- !private ["P6Eureka12BaseCellType", "init"]
+- !private ["P6Eureka12BaseCellType", "ratingView"]
+- ["P6Eureka12BaseCellType", "ratingViewTitle"]
+- ["P6Eureka12BaseCellType", "ratingsViewValueChanged"]
+- !private ["P6Eureka12BaseCellType", "row"]
+- ["P6Eureka12BaseCellType", "setup"]
+- ["P6Eureka12BaseCellType", "update"]
+- ["P6Eureka12BaseCellType", ""]
+- !private ["C6Eureka7BaseRow", "CellProvider"]
+- !private ["C6Eureka7BaseRow", "RatingsCell"]
+- ["C6Eureka7BaseRow", "String"]
+- !private ["C6Eureka7BaseRow", "cellProvider"]
+- ["C6Eureka7BaseRow", "init"]
+- !private ["C6Eureka7BaseRow", "title"]
+- !private ["C6Eureka7BaseRow", "updateCell"]
+- !private ["C6Eureka7BaseRow", "value"]
+- !private ["P6Eureka11BaseRowType", "CellProvider"]
+- !private ["P6Eureka11BaseRowType", "cellProvider"]
+- ["P6Eureka11BaseRowType", "init"]
+- !private ["P6Eureka11BaseRowType", "title"]
+- !private ["P6Eureka11BaseRowType", "updateCell"]
+- !private ["P6Eureka11BaseRowType", "value"]
+- ["P6Eureka11BaseRowType", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "ratingView"]
+- ["PSo15CALayerDelegate", "ratingViewTitle"]
+- ["PSo15CALayerDelegate", "ratingsViewValueChanged"]
+- !private ["PSo15CALayerDelegate", "row"]
+- ["PSo15CALayerDelegate", "setup"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", "update"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "ratingView"]
+- ["Ps7CVarArg", "ratingViewTitle"]
+- ["Ps7CVarArg", "ratingsViewValueChanged"]
+- !private ["Ps7CVarArg", "row"]
+- ["Ps7CVarArg", "setup"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "update"]
+- ["Ps7CVarArg", ""]
+- ["C6Eureka4Cell", "EZRatingView"]
+- ["C6Eureka4Cell", "UILabel"]
+- ["C6Eureka4Cell", "deinit"]
+- ["C6Eureka4Cell", "init"]
+- !private ["C6Eureka4Cell", "ratingView"]
+- ["C6Eureka4Cell", "ratingViewTitle"]
+- ["C6Eureka4Cell", "ratingsViewValueChanged"]
+- !private ["C6Eureka4Cell", "row"]
+- ["C6Eureka4Cell", "setup"]
+- ["C6Eureka4Cell", "update"]
+- ["C6Eureka4Cell", ""]
+- ["V6Eureka12CellProvider", "deinit"]
+- !private ["V6Eureka12CellProvider", "init"]
+- !private ["P6Eureka8CellType", "ratingView"]
+- !private ["P6Eureka8CellType", "ratingViewTitle"]
+- !private ["P6Eureka8CellType", "ratingsViewValueChanged"]
+- !private ["P6Eureka8CellType", "row"]
+- ["P6Eureka8CellType", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ratingView"]
+- ["Ps28CustomDebugStringConvertible", "ratingViewTitle"]
+- ["Ps28CustomDebugStringConvertible", "ratingsViewValueChanged"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "update"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "ratingView"]
+- ["Ps23CustomStringConvertible", "ratingViewTitle"]
+- ["Ps23CustomStringConvertible", "ratingsViewValueChanged"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- ["Ps23CustomStringConvertible", "setup"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "update"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["P6Eureka11Disableable", "CellProvider"]
+- !private ["P6Eureka11Disableable", "cellProvider"]
+- ["P6Eureka11Disableable", "init"]
+- !private ["P6Eureka11Disableable", "title"]
+- !private ["P6Eureka11Disableable", "updateCell"]
+- !private ["P6Eureka11Disableable", "value"]
+- ["P6Eureka11Disableable", ""]
+- !private ["Ps9Equatable", "CellProvider"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "cellProvider"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "ratingView"]
+- ["Ps9Equatable", "ratingViewTitle"]
+- ["Ps9Equatable", "ratingsViewValueChanged"]
+- !private ["Ps9Equatable", "row"]
+- ["Ps9Equatable", "setup"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "updateCell"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "ratingView"]
+- ["Ps8Hashable", "ratingViewTitle"]
+- ["Ps8Hashable", "ratingsViewValueChanged"]
+- !private ["Ps8Hashable", "row"]
+- ["Ps8Hashable", "setup"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "update"]
+- ["Ps8Hashable", ""]
+- !private ["P6Eureka7Hidable", "CellProvider"]
+- !private ["P6Eureka7Hidable", "cellProvider"]
+- ["P6Eureka7Hidable", "init"]
+- !private ["P6Eureka7Hidable", "title"]
+- !private ["P6Eureka7Hidable", "updateCell"]
+- !private ["P6Eureka7Hidable", "value"]
+- ["P6Eureka7Hidable", ""]
+- ["SQ", "deinit"]
+- !private ["P6Eureka18InputTypeInitiable", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "ratingView"]
+- ["PSo8NSCoding", "ratingViewTitle"]
+- ["PSo8NSCoding", "ratingsViewValueChanged"]
+- !private ["PSo8NSCoding", "row"]
+- ["PSo8NSCoding", "setup"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "update"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "EZRatingView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "ratingView"]
+- ["CSo8NSObject", "ratingViewTitle"]
+- ["CSo8NSObject", "ratingsViewValueChanged"]
+- !private ["CSo8NSObject", "row"]
+- ["CSo8NSObject", "setup"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "update"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "ratingView"]
+- ["PSo16NSObjectProtocol", "ratingViewTitle"]
+- ["PSo16NSObjectProtocol", "ratingsViewValueChanged"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- ["PSo16NSObjectProtocol", "setup"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C6Casper11RatingsCell", "EZRatingView"]
+- ["C6Casper11RatingsCell", "UILabel"]
+- ["C6Casper11RatingsCell", "deinit"]
+- ["C6Casper11RatingsCell", "init"]
+- !private ["C6Casper11RatingsCell", "ratingView"]
+- ["C6Casper11RatingsCell", "ratingViewTitle"]
+- ["C6Casper11RatingsCell", "ratingsViewValueChanged"]
+- !private ["C6Casper11RatingsCell", "row"]
+- ["C6Casper11RatingsCell", "setup"]
+- ["C6Casper11RatingsCell", "update"]
+- !private ["C6Casper10RatingsRow", "CellProvider"]
+- !private ["C6Casper10RatingsRow", "RatingsCell"]
+- ["C6Casper10RatingsRow", "String"]
+- !private ["C6Casper10RatingsRow", "cellProvider"]
+- ["C6Casper10RatingsRow", "deinit"]
+- ["C6Casper10RatingsRow", "init"]
+- !private ["C6Eureka3Row", "CellProvider"]
+- !private ["C6Eureka3Row", "RatingsCell"]
+- ["C6Eureka3Row", "String"]
+- !private ["C6Eureka3Row", "cellProvider"]
+- ["C6Eureka3Row", "deinit"]
+- ["C6Eureka3Row", "init"]
+- ["C6Eureka3Row", ""]
+- !private ["C6Eureka5RowOf", "CellProvider"]
+- !private ["C6Eureka5RowOf", "RatingsCell"]
+- ["C6Eureka5RowOf", "String"]
+- !private ["C6Eureka5RowOf", "cellProvider"]
+- ["C6Eureka5RowOf", "init"]
+- !private ["C6Eureka5RowOf", "title"]
+- !private ["C6Eureka5RowOf", "updateCell"]
+- !private ["C6Eureka5RowOf", "value"]
+- !private ["P6Eureka7RowType", "CellProvider"]
+- !private ["P6Eureka7RowType", "cellProvider"]
+- ["P6Eureka7RowType", "init"]
+- ["P6Eureka7RowType", ""]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P6Eureka8Taggable", "CellProvider"]
+- !private ["P6Eureka8Taggable", "cellProvider"]
+- ["P6Eureka8Taggable", "init"]
+- !private ["P6Eureka8Taggable", "title"]
+- !private ["P6Eureka8Taggable", "updateCell"]
+- !private ["P6Eureka8Taggable", "value"]
+- ["P6Eureka8Taggable", ""]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P6Eureka13TypedCellType", "init"]
+- !private ["P6Eureka13TypedCellType", "ratingView"]
+- ["P6Eureka13TypedCellType", "ratingViewTitle"]
+- ["P6Eureka13TypedCellType", "ratingsViewValueChanged"]
+- !private ["P6Eureka13TypedCellType", "row"]
+- ["P6Eureka13TypedCellType", "setup"]
+- ["P6Eureka13TypedCellType", "update"]
+- ["P6Eureka13TypedCellType", ""]
+- !private ["P6Eureka12TypedRowType", "CellProvider"]
+- !private ["P6Eureka12TypedRowType", "cellProvider"]
+- ["P6Eureka12TypedRowType", "init"]
+- ["P6Eureka12TypedRowType", ""]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "ratingView"]
+- ["PSo29UIAccessibilityIdentification", "ratingViewTitle"]
+- ["PSo29UIAccessibilityIdentification", "ratingsViewValueChanged"]
+- !private ["PSo29UIAccessibilityIdentification", "row"]
+- ["PSo29UIAccessibilityIdentification", "setup"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "update"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "ratingView"]
+- ["PSo12UIAppearance", "ratingViewTitle"]
+- ["PSo12UIAppearance", "ratingsViewValueChanged"]
+- !private ["PSo12UIAppearance", "row"]
+- ["PSo12UIAppearance", "setup"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "update"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "ratingView"]
+- ["PSo21UIAppearanceContainer", "ratingViewTitle"]
+- ["PSo21UIAppearanceContainer", "ratingsViewValueChanged"]
+- !private ["PSo21UIAppearanceContainer", "row"]
+- ["PSo21UIAppearanceContainer", "setup"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "update"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "ratingView"]
+- ["PSo17UICoordinateSpace", "ratingViewTitle"]
+- ["PSo17UICoordinateSpace", "ratingsViewValueChanged"]
+- !private ["PSo17UICoordinateSpace", "row"]
+- ["PSo17UICoordinateSpace", "setup"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "update"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "ratingView"]
+- ["PSo13UIDynamicItem", "ratingViewTitle"]
+- ["PSo13UIDynamicItem", "ratingsViewValueChanged"]
+- !private ["PSo13UIDynamicItem", "row"]
+- ["PSo13UIDynamicItem", "setup"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "update"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "ratingView"]
+- ["PSo18UIFocusEnvironment", "ratingViewTitle"]
+- ["PSo18UIFocusEnvironment", "ratingsViewValueChanged"]
+- !private ["PSo18UIFocusEnvironment", "row"]
+- ["PSo18UIFocusEnvironment", "setup"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "update"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "ratingView"]
+- ["PSo11UIFocusItem", "ratingViewTitle"]
+- ["PSo11UIFocusItem", "ratingsViewValueChanged"]
+- !private ["PSo11UIFocusItem", "row"]
+- ["PSo11UIFocusItem", "setup"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", "update"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "ratingView"]
+- ["PSo27UIGestureRecognizerDelegate", "ratingViewTitle"]
+- ["PSo27UIGestureRecognizerDelegate", "ratingsViewValueChanged"]
+- !private ["PSo27UIGestureRecognizerDelegate", "row"]
+- ["PSo27UIGestureRecognizerDelegate", "setup"]
+- ["PSo27UIGestureRecognizerDelegate", "update"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "EZRatingView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "ratingView"]
+- ["CSo11UIResponder", "ratingViewTitle"]
+- ["CSo11UIResponder", "ratingsViewValueChanged"]
+- !private ["CSo11UIResponder", "row"]
+- ["CSo11UIResponder", "setup"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "update"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "ratingView"]
+- ["PSo30UIResponderStandardEditActions", "ratingViewTitle"]
+- ["PSo30UIResponderStandardEditActions", "ratingsViewValueChanged"]
+- !private ["PSo30UIResponderStandardEditActions", "row"]
+- ["PSo30UIResponderStandardEditActions", "setup"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "update"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "EZRatingView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- !private ["CSo15UITableViewCell", "ratingView"]
+- ["CSo15UITableViewCell", "ratingViewTitle"]
+- ["CSo15UITableViewCell", "ratingsViewValueChanged"]
+- !private ["CSo15UITableViewCell", "row"]
+- ["CSo15UITableViewCell", "setup"]
+- ["CSo15UITableViewCell", "update"]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "ratingView"]
+- ["PSo18UITraitEnvironment", "ratingViewTitle"]
+- ["PSo18UITraitEnvironment", "ratingsViewValueChanged"]
+- !private ["PSo18UITraitEnvironment", "row"]
+- ["PSo18UITraitEnvironment", "setup"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "update"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "EZRatingView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "ratingView"]
+- ["CSo6UIView", "ratingViewTitle"]
+- ["CSo6UIView", "ratingsViewValueChanged"]
+- !private ["CSo6UIView", "row"]
+- ["CSo6UIView", "setup"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "update"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "ratingView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "ratingViewTitle"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "ratingsViewValueChanged"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "row"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setup"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "update"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "ratingView"]
+- ["Ps9_Hashable", "ratingViewTitle"]
+- ["Ps9_Hashable", "ratingsViewValueChanged"]
+- !private ["Ps9_Hashable", "row"]
+- ["Ps9_Hashable", "setup"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "update"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6Eureka8BaseCell"
+- "P6Eureka12BaseCellType"
+- "C6Eureka7BaseRow"
+- "P6Eureka11BaseRowType"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "C6Eureka4Cell"
+- "V6Eureka12CellProvider"
+- "P6Eureka8CellType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P6Eureka11Disableable"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P6Eureka7Hidable"
+- "SQ"
+- !private "P6Eureka18InputTypeInitiable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C6Casper11RatingsCell"
+- "C6Casper10RatingsRow"
+- "C6Eureka3Row"
+- "C6Eureka5RowOf"
+- "P6Eureka7RowType"
+- "SS"
+- "P6Eureka8Taggable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P6Eureka13TypedCellType"
+- "P6Eureka12TypedRowType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/Casper.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Intermediates/Casper.build/Debug-iphoneos/Casper.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Headers/Eureka-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Modules/module.modulemap"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Modules/QRCode.swiftmodule/arm64.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Headers/QRCode-Swift.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Headers/QRCode-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Modules/module.modulemap"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Modules/Nuke.swiftmodule/arm64.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Headers/Nuke-Swift.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Headers/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Modules/module.modulemap"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Modules/NukeFLAnimatedImagePlugin.swiftmodule/arm64.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Modules/module.modulemap"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers/NukeFLAnimatedImagePlugin-Swift.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers/Nuke-FLAnimatedImage-Plugin-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Modules/module.modulemap"
+interface-hash: "001774437b71a4e0902f08d7932ca89a"

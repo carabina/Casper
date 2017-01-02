@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "3a22163185eeaab2e26461d33b5ee064"
+build_time: [536660139, 971967000]
+inputs:
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/Casper.swift": [536659771, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/ImageCell.swift": [536568876, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/WebViewCell.swift": [536320136, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/QRCodeCell.swift": [536659726, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/ActivityCell.swift": [536232416, 0]
+  "/Users/prajaktakulkarni/Documents/My Pods/Casper/Casper/GIFActivityCell.swift": [536424901, 0]

@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039CCAC0DCF9CA717F38A500 /* Pods_Casper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB42312D2687153D79ECF5C /* Pods_Casper.framework */; };
 		FF01DA871E18FE2C00DF4A31 /* Casper.h in Headers */ = {isa = PBXBuildFile; fileRef = FF01DA851E18FE2C00DF4A31 /* Casper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF01DA8E1E1905E200DF4A31 /* Casper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA8D1E1905E200DF4A31 /* Casper.swift */; };
+		FF01DA9E1E19062600DF4A31 /* GIFActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA921E19062600DF4A31 /* GIFActivityCell.swift */; };
+		FF01DA9F1E19062600DF4A31 /* GIFActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF01DA931E19062600DF4A31 /* GIFActivityCell.xib */; };
+		FF01DAA01E19062600DF4A31 /* WebViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA941E19062600DF4A31 /* WebViewCell.swift */; };
+		FF01DAA11E19062600DF4A31 /* WebViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF01DA951E19062600DF4A31 /* WebViewCell.xib */; };
+		FF01DAA21E19062600DF4A31 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA961E19062600DF4A31 /* ImageCell.swift */; };
+		FF01DAA31E19062600DF4A31 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF01DA971E19062600DF4A31 /* ImageCell.xib */; };
+		FF01DAA41E19062600DF4A31 /* QRCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA981E19062600DF4A31 /* QRCodeCell.swift */; };
+		FF01DAA61E19062600DF4A31 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DA9A1E19062600DF4A31 /* ActivityCell.swift */; };
+		FF01DAA71E19062600DF4A31 /* ActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF01DA9B1E19062600DF4A31 /* ActivityCell.xib */; };
+		FFA997C61E1A422500FCF716 /* QRCodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA997C51E1A422500FCF716 /* QRCodeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DB42312D2687153D79ECF5C /* Pods_Casper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Casper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9463427C11C5041C9C1F82 /* Pods-Casper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Casper/Pods-Casper.release.xcconfig"; sourceTree = "<group>"; };
+		BA08CDFEA9417DE030655464 /* Pods-Casper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Casper/Pods-Casper.debug.xcconfig"; sourceTree = "<group>"; };
 		FF01DA821E18FE2C00DF4A31 /* Casper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Casper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF01DA851E18FE2C00DF4A31 /* Casper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Casper.h; sourceTree = "<group>"; };
 		FF01DA861E18FE2C00DF4A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF01DA8D1E1905E200DF4A31 /* Casper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Casper.swift; sourceTree = "<group>"; };
+		FF01DA921E19062600DF4A31 /* GIFActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFActivityCell.swift; sourceTree = "<group>"; };
+		FF01DA931E19062600DF4A31 /* GIFActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFActivityCell.xib; sourceTree = "<group>"; };
+		FF01DA941E19062600DF4A31 /* WebViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCell.swift; sourceTree = "<group>"; };
+		FF01DA951E19062600DF4A31 /* WebViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewCell.xib; sourceTree = "<group>"; };
+		FF01DA961E19062600DF4A31 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FF01DA971E19062600DF4A31 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		FF01DA981E19062600DF4A31 /* QRCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeCell.swift; sourceTree = "<group>"; };
+		FF01DA9A1E19062600DF4A31 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		FF01DA9B1E19062600DF4A31 /* ActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityCell.xib; sourceTree = "<group>"; };
+		FFA997C51E1A422500FCF716 /* QRCodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039CCAC0DCF9CA717F38A500 /* Pods_Casper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58453B662F9666C4ABD77D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB42312D2687153D79ECF5C /* Pods_Casper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A593380DA00511CEFD8DB7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA08CDFEA9417DE030655464 /* Pods-Casper.debug.xcconfig */,
+				9B9463427C11C5041C9C1F82 /* Pods-Casper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF01DA781E18FE2C00DF4A31 = {
 			isa = PBXGroup;
 			children = (
 				FF01DA841E18FE2C00DF4A31 /* Casper */,
 				FF01DA831E18FE2C00DF4A31 /* Products */,
+				A593380DA00511CEFD8DB7E0 /* Pods */,
+				58453B662F9666C4ABD77D2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +92,77 @@
 		FF01DA841E18FE2C00DF4A31 /* Casper */ = {
 			isa = PBXGroup;
 			children = (
+				FFA997AF1E19152D00FCF716 /* Classes */,
 				FF01DA851E18FE2C00DF4A31 /* Casper.h */,
+				FF01DA8F1E1905E900DF4A31 /* Helpers */,
 				FF01DA861E18FE2C00DF4A31 /* Info.plist */,
 			);
 			path = Casper;
+			sourceTree = "<group>";
+		};
+		FF01DA8F1E1905E900DF4A31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DAAE1E1906B600DF4A31 /* Activity */,
+				FF01DAAD1E1906B100DF4A31 /* QR Code */,
+				FF01DAAC1E1906AB00DF4A31 /* Image */,
+				FF01DAAB1E1906A500DF4A31 /* WebView */,
+				FF01DAAA1E19062D00DF4A31 /* GIF */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		FF01DAAA1E19062D00DF4A31 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA921E19062600DF4A31 /* GIFActivityCell.swift */,
+				FF01DA931E19062600DF4A31 /* GIFActivityCell.xib */,
+			);
+			name = GIF;
+			sourceTree = "<group>";
+		};
+		FF01DAAB1E1906A500DF4A31 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA941E19062600DF4A31 /* WebViewCell.swift */,
+				FF01DA951E19062600DF4A31 /* WebViewCell.xib */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		FF01DAAC1E1906AB00DF4A31 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA961E19062600DF4A31 /* ImageCell.swift */,
+				FF01DA971E19062600DF4A31 /* ImageCell.xib */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FF01DAAD1E1906B100DF4A31 /* QR Code */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA981E19062600DF4A31 /* QRCodeCell.swift */,
+				FFA997C51E1A422500FCF716 /* QRCodeCell.xib */,
+			);
+			name = "QR Code";
+			sourceTree = "<group>";
+		};
+		FF01DAAE1E1906B600DF4A31 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA9A1E19062600DF4A31 /* ActivityCell.swift */,
+				FF01DA9B1E19062600DF4A31 /* ActivityCell.xib */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		FFA997AF1E19152D00FCF716 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF01DA8D1E1905E200DF4A31 /* Casper.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF01DA8A1E18FE2C00DF4A31 /* Build configuration list for PBXNativeTarget "Casper" */;
 			buildPhases = (
+				E0D0B2509894FBF620CF5CF2 /* [CP] Check Pods Manifest.lock */,
 				FF01DA7D1E18FE2C00DF4A31 /* Sources */,
 				FF01DA7E1E18FE2C00DF4A31 /* Frameworks */,
 				FF01DA7F1E18FE2C00DF4A31 /* Headers */,
 				FF01DA801E18FE2C00DF4A31 /* Resources */,
+				97E08B0914D6F79A19796784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +211,7 @@
 					FF01DA811E18FE2C00DF4A31 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = DUXG8V348H;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -122,16 +238,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF01DAA31E19062600DF4A31 /* ImageCell.xib in Resources */,
+				FF01DAA71E19062600DF4A31 /* ActivityCell.xib in Resources */,
+				FF01DA9F1E19062600DF4A31 /* GIFActivityCell.xib in Resources */,
+				FF01DAA11E19062600DF4A31 /* WebViewCell.xib in Resources */,
+				FFA997C61E1A422500FCF716 /* QRCodeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97E08B0914D6F79A19796784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Casper/Pods-Casper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D0B2509894FBF620CF5CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF01DA7D1E18FE2C00DF4A31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF01DA8E1E1905E200DF4A31 /* Casper.swift in Sources */,
+				FF01DAA21E19062600DF4A31 /* ImageCell.swift in Sources */,
+				FF01DAA01E19062600DF4A31 /* WebViewCell.swift in Sources */,
+				FF01DAA41E19062600DF4A31 /* QRCodeCell.swift in Sources */,
+				FF01DAA61E19062600DF4A31 /* ActivityCell.swift in Sources */,
+				FF01DA9E1E19062600DF4A31 /* GIFActivityCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -239,7 +399,9 @@
 		};
 		FF01DA8B1E18FE2C00DF4A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA08CDFEA9417DE030655464 /* Pods-Casper.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DUXG8V348H;
@@ -252,13 +414,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dhirajjadhao.Casper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FF01DA8C1E18FE2C00DF4A31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9463427C11C5041C9C1F82 /* Pods-Casper.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DUXG8V348H;
@@ -271,6 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dhirajjadhao.Casper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -294,6 +461,7 @@
 				FF01DA8C1E18FE2C00DF4A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
