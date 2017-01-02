@@ -21,6 +21,7 @@ Casper is a lightweight and highly customisable framework which extends the usab
 ## Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Example project](#exampleproject)
 - [Usage](#usage)
 
 
@@ -63,3 +64,9 @@ $ pod install
 ### Example project
 
 You can clone and run the Example project to see examples of most of Casper's features.
+
+
+### Usage
+
+### How to create an Alert with UICasperController
+
