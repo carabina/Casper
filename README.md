@@ -11,3 +11,8 @@
 Casper is a lightweight and highly customisable framework which extends the usability of UIAlertController to provide you with much more customisable and frequently required UI elements.
 
 ## Overview
+
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/2684979/21588624/ecc33ffc-d10e-11e6-82e6-befffcc26131.gif" width="220"/>
+
+</p>
