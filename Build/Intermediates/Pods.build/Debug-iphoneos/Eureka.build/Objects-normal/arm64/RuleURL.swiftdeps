@@ -8,17 +8,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "BooleanLiteralType"
-- !private "RegExprPattern"
+- "ValidationError"
 - "RuleURL"
+- !private "RegExprPattern"
 - "StringLiteralType"
-- "Bool"
+- "URL"
+- !private "!"
 - !private "=="
 - "String"
-- !private "!"
 - "RuleType"
-- "ValidationError"
-- "URL"
 - !private "NSPredicate"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "evaluate"]
 - ["Ps9AnyObject", "init"]

@@ -17,14 +17,14 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "BaseRow"
+- "LogicalConjunctionPrecedence"
+- "Form"
+- "+="
 - "+++"
 - "Collection"
 - "<<<"
-- "+="
-- "BaseRow"
-- "LogicalConjunctionPrecedence"
 - "Section"
-- "Form"
 depends-member:
 - !private ["Ps9AnyObject", "Iterator"]
 - !private ["Ps9AnyObject", "_Element"]

@@ -14,20 +14,20 @@ provides-member:
 - ["C6Eureka8LabelRow", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "RowType"
+- "String"
 - "Equatable"
 - "_LabelRow"
-- "LabelRow"
-- "Cell"
-- "NSCoder"
-- "Row"
-- !private "StringLiteralType"
 - "CellType"
+- "LabelRow"
+- !private "fatalError"
 - "UITableViewCellStyle"
+- !private "StringLiteralType"
 - "AssignmentPrecedence"
 - "LabelCell"
-- "String"
-- !private "fatalError"
+- "Cell"
+- "RowType"
+- "Row"
+- "NSCoder"
 - "LabelCellOf"
 depends-member:
 - !private ["Ps9AnyObject", "fatalError"]

@@ -16,20 +16,20 @@ provides-member:
 - ["V6Eureka22RuleSmallerOrEqualThan", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private ">"
-- "RuleGreaterThan"
+- "ValidationError"
+- "RuleSmallerThan"
+- !private "<"
 - "RuleGreaterOrEqualThan"
-- "RuleSmallerOrEqualThan"
 - !private ">="
 - "Comparable"
-- "RuleSmallerThan"
-- !private "StringLiteralType"
-- "String"
-- !private "<"
+- !private ">"
 - "AssignmentPrecedence"
+- "RuleSmallerOrEqualThan"
 - !private "<="
 - "RuleType"
-- "ValidationError"
+- !private "StringLiteralType"
+- "RuleGreaterThan"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["P6Eureka12BaseRuleType", "RowValueType"]

@@ -12,30 +12,30 @@ provides-member:
 - ["C6Eureka9_CheckRow", ""]
 - ["C6Eureka8CheckRow", ""]
 provides-dynamic-lookup:
-- "update"
-- "setup"
 - "didSelect"
+- "setup"
+- "update"
 depends-top-level:
-- "_CheckRow"
 - !private "BooleanLiteralType"
-- "Cell"
-- "CheckCell"
-- !private "CGFloat"
-- "NSCoder"
+- !private "fatalError"
 - !private "UIColor"
+- !private "CGFloat"
+- "Row"
+- "Cell"
+- "_CheckRow"
+- "NSCoder"
+- "RowType"
+- !private "??"
+- "CheckCell"
 - !private "StringLiteralType"
 - "String"
-- "Bool"
-- "Row"
-- !private "fatalError"
+- "CheckRow"
 - !private "=="
 - "AssignmentPrecedence"
-- !private "??"
-- "CheckRow"
 - "CellType"
-- "RowType"
 - "TernaryPrecedence"
 - "UITableViewCellStyle"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "accessoryType"]

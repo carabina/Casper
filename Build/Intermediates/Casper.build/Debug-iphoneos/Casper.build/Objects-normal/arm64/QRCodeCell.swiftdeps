@@ -9,24 +9,24 @@ provides-member:
 - ["C6Casper10QRCodeCell", ""]
 - ["C6Casper9QRCodeRow", ""]
 provides-dynamic-lookup:
-- "setup"
 - "update"
+- "setup"
 - "qrCodeView"
 depends-top-level:
-- "Row"
-- "QRCodeCell"
-- !private "!="
-- "RowType"
-- !private "QRCode"
 - !private "CIColor"
-- !private "StringLiteralType"
-- "String"
 - "AssignmentPrecedence"
-- "CellType"
-- !private "CellProvider"
+- !private "QRCode"
 - "QRCodeRow"
-- "Cell"
+- "String"
+- "RowType"
+- "Row"
 - "UIImageView"
+- !private "CellProvider"
+- !private "!="
+- !private "StringLiteralType"
+- "CellType"
+- "Cell"
+- "QRCodeCell"
 depends-member:
 - !private ["Ps9AnyObject", "CIColor"]
 - !private ["Ps9AnyObject", "CellProvider"]

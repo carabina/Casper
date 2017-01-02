@@ -10,23 +10,23 @@ provides-member:
 - ["CSo11NSPredicate", "predicateVars"]
 - ["CSo12NSExpression", "expressionVars"]
 provides-dynamic-lookup:
-- "expressionVars"
-- "formCell"
-- "predicateVars"
 - "findFirstResponder"
+- "predicateVars"
+- "formCell"
+- "expressionVars"
 depends-top-level:
-- !private "StringLiteralType"
-- !private "NSCompoundPredicate"
-- !private "NSComparisonPredicate"
-- !private "UnicodeScalarType"
-- "NSPredicate"
-- "NSExpression"
-- !private "UITableViewCell"
-- "String"
-- !private "..<"
-- "CastingPrecedence"
 - "UIView"
+- "NSPredicate"
+- !private "UnicodeScalarType"
+- "NSExpression"
+- !private "NSComparisonPredicate"
+- !private "StringLiteralType"
+- "String"
+- "CastingPrecedence"
 - "BaseCell"
+- !private "UITableViewCell"
+- !private "NSCompoundPredicate"
+- !private "..<"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "characters"]

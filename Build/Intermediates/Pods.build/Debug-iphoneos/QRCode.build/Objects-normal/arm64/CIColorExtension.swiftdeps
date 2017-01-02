@@ -6,18 +6,18 @@ provides-member:
 - ["CSo7CIColor", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Scanner"
-- !private "&"
-- !private "print"
-- !private "StringLiteralType"
 - !private ">>"
-- !private "/"
-- !private "CUnsignedLongLong"
-- "CIColor"
 - !private "CGFloat"
+- !private "print"
 - "String"
-- !private "~="
+- !private "Scanner"
 - "AssignmentPrecedence"
+- "CIColor"
+- !private "&"
+- !private "~="
+- !private "StringLiteralType"
+- !private "CUnsignedLongLong"
+- !private "/"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]

@@ -7,21 +7,21 @@ provides-member:
 - ["C4Nuke12Deduplicator", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Loading"
+- "Promise"
 - "Request"
 - "StringLiteralType"
 - !private "==="
-- "Loading"
+- "CancellationTokenSource"
 - "Image"
-- "AnyHashable"
+- "CancellationToken"
 - "DispatchQueue"
+- "AnyHashable"
 - "AssignmentPrecedence"
 - !private "=="
-- "CancellationTokenSource"
-- !private "+="
-- "CancellationToken"
-- !private "-="
 - "Deduplicator"
-- "Promise"
+- !private "-="
+- !private "+="
 depends-member:
 - !private ["Vs11AnyHashable", "deinit"]
 - ["Ps9AnyObject", "AnyHashable"]

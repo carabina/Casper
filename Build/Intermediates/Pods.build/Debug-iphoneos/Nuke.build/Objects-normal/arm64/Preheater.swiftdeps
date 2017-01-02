@@ -9,17 +9,17 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AsyncScheduler"
 - "StringLiteralType"
-- "Request"
-- "Preheater"
 - !private "Loader"
+- !private "==="
+- "Request"
+- "Loading"
+- "Preheater"
+- !private "Int"
+- !private "OperationQueueScheduler"
+- !private "CancellationTokenSource"
 - "AssignmentPrecedence"
 - !private "=="
-- !private "OperationQueueScheduler"
-- !private "==="
-- "Loading"
-- !private "CancellationTokenSource"
 - "DispatchQueue"
-- !private "Int"
 depends-member:
 - !private ["Vs11AnyHashable", "deinit"]
 - !private ["Ps9AnyObject", "CancellationTokenSource"]

@@ -7,12 +7,12 @@ provides-member:
 - ["C6Eureka9RuleEmail", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "RuleEmail"
 - !private "BooleanLiteralType"
+- "RuleRegExp"
+- "AssignmentPrecedence"
 - !private "ValidationError"
 - !private "RegExprPattern"
-- "AssignmentPrecedence"
-- "RuleEmail"
-- "RuleRegExp"
 depends-member:
 - !private ["Ps9AnyObject", "RegExprPattern"]
 - !private ["Ps9AnyObject", "ValidationError"]

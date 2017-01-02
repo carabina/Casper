@@ -7,15 +7,15 @@ provides-member:
 - ["C6Eureka10OptionsRow", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CellType"
+- !private "DataProvider"
+- "NoValueDisplayTextConformance"
 - "Row"
-- "String"
+- !private "Array"
+- !private "??"
+- "CellType"
 - "AssignmentPrecedence"
 - "OptionsRow"
-- !private "DataProvider"
-- !private "??"
-- "NoValueDisplayTextConformance"
-- !private "Array"
+- "String"
 - "BaseCell"
 depends-member:
 - !private ["Ps9AnyObject", "DataProvider"]

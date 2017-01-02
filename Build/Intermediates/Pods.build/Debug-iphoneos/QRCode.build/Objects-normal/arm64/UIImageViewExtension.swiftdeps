@@ -6,8 +6,8 @@ provides-member:
 - ["CSo11UIImageView", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "QRCode"
 - "UIImageView"
+- "QRCode"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["PSo15CALayerDelegate", "init"]

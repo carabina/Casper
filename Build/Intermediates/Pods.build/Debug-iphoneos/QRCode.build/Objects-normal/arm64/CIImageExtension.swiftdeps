@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "UIImage"
-- !private "BooleanLiteralType"
-- "Scale"
-- !private "UIGraphicsGetImageFromCurrentImageContext"
-- !private "*"
-- "AssignmentPrecedence"
-- !private "UIGraphicsBeginImageContextWithOptions"
 - !private "CIContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "AssignmentPrecedence"
+- !private "*"
+- !private "UIGraphicsBeginImageContextWithOptions"
 - "CIImage"
-- !private "UIGraphicsEndImageContext"
 - "CGFloat"
 - !private "CGSize"
 - !private "UIGraphicsGetCurrentContext"
+- "Scale"
+- !private "BooleanLiteralType"
+- !private "UIGraphicsEndImageContext"
 depends-member:
 - !private ["Ps9AnyObject", "CGSize"]
 - !private ["Ps9AnyObject", "CIContext"]

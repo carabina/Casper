@@ -10,18 +10,18 @@ provides-member:
 - ["C6Eureka19MultipleSelectorRow", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Hashable"
-- "Set"
-- "PushSelectorCell"
 - "BaseCell"
-- "CellType"
 - "GenericMultipleSelectorRow"
-- "String"
+- "Hashable"
+- "PushSelectorCell"
+- "_MultipleSelectorRow"
+- "CellType"
 - "MultipleSelectorViewController"
 - "RowType"
-- "TypedCellType"
+- "Set"
 - "MultipleSelectorRow"
-- "_MultipleSelectorRow"
+- "String"
+- "TypedCellType"
 depends-member:
 - !private ["Ps9AnyObject", "Cell"]
 - !private ["Ps9AnyObject", "RowValue"]

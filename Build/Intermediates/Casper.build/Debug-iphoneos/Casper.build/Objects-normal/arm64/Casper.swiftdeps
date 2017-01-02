@@ -16,92 +16,91 @@ provides-member:
 - ["C6Casper18UICasperController", ""]
 provides-dynamic-lookup:
 - "tintColor"
-- "dismissButtonTitle"
-- "keyboardVisible"
+- "message"
 - "dismiss"
-- "keyboardHidden"
+- "dismissButtonTitle"
+- "title"
 - "present"
 depends-top-level:
-- "UICasperControllerStyle"
-- !private "UILabel"
-- !private "URL"
-- "Form"
-- !private "SwitchRow"
-- !private "..<"
-- !private "ActivityRow"
-- !private "NSTextAlignment"
-- "Void"
-- !private "StepperRow"
-- !private "print"
-- "Int"
-- !private "UITableViewCellSeparatorStyle"
-- !private "CGFloat"
-- !private "NSFontAttributeName"
-- !private "IntRow"
-- !private "TextRow"
-- !private "LabelRow"
-- "Section"
-- !private "UIAlertControllerStyle"
-- "UIAlertController"
-- !private "PhoneRow"
-- "UnicodeScalarType"
-- !private "UIFont"
-- "NSObject"
-- "UIColor"
-- !private "CGSize"
-- "UIApplication"
-- !private "ButtonRow"
-- !private ">"
-- !private "PasswordRow"
-- !private "QRCodeRow"
-- !private "ImageRow"
-- !private "UIAlertAction"
-- "UICasperActionStyle"
-- !private ">="
 - "DeviceType"
-- "UIViewController"
-- !private "-"
-- !private "+++"
-- !private "~="
-- !private "UIViewContentMode"
-- !private "GIFActivityRow"
-- !private "!="
-- !private "CGPoint"
-- "String"
-- "=="
-- "AssignmentPrecedence"
-- "UICasperController"
-- !private "CastingPrecedence"
-- !private "DateTimeRow"
-- !private "round"
+- !private "TimeRow"
+- "Form"
+- !private "Float"
 - !private "ZipCodeRow"
-- !private "SegmentedRow"
 - !private "NSAttributedString"
-- !private "DateRow"
+- "Int"
+- !private "CGRect"
+- !private "DateTimeRow"
 - !private "TextAreaRow"
+- !private "+++"
+- "UICasperController"
+- !private "GIFActivityRow"
+- !private "round"
+- "UICasperControllerStyle"
+- "String"
 - !private "Double"
 - !private "EmailRow"
-- !private "SliderRow"
-- !private "Dictionary"
-- !private "+"
+- !private "DateRow"
+- !private "!="
 - !private "UIActivityIndicatorViewStyle"
-- !private "NSMutableAttributedString"
+- !private "/"
+- "Void"
+- !private "CGSize"
+- !private "CastingPrecedence"
+- !private "QRCodeRow"
+- "UIAlertController"
+- "=="
+- "AssignmentPrecedence"
 - "FormViewController"
 - !private "UIImage"
-- "Bool"
-- !private "CheckRow"
-- !private "BooleanLiteralType"
-- !private "TimeRow"
-- !private "Float"
-- !private "Date"
-- !private "UITableViewCellSelectionStyle"
-- "Swift"
-- !private "/"
+- !private "UILabel"
+- !private "PhoneRow"
+- !private "PasswordRow"
+- !private "~="
 - "UIWindow"
+- !private "SegmentedRow"
+- !private "Dictionary"
+- !private ">"
+- !private "ButtonRow"
+- !private "-"
+- !private "..<"
+- "NSObject"
+- !private "SliderRow"
+- !private "+"
+- !private "CheckRow"
+- "UnicodeScalarType"
+- !private "ActivityRow"
+- !private "print"
+- !private "ImageRow"
+- !private "IntRow"
+- !private "BooleanLiteralType"
 - !private "URLRow"
 - "StringLiteralType"
-- !private "CGRect"
+- !private "UITableViewCellSeparatorStyle"
+- !private "URL"
+- !private "StepperRow"
+- !private "TextRow"
+- "Bool"
+- !private "NSFontAttributeName"
+- "Swift"
+- !private "UIAlertControllerStyle"
+- !private ">="
+- !private "UIFont"
+- !private "NSMutableAttributedString"
+- "UIColor"
+- !private "UIAlertAction"
+- "UICasperActionStyle"
+- !private "UITableViewCellSelectionStyle"
+- "UIApplication"
+- !private "LabelRow"
+- "Section"
+- !private "NSTextAlignment"
+- !private "SwitchRow"
 - !private "<<<"
+- !private "UIViewContentMode"
+- "UIViewController"
+- !private "CGFloat"
+- !private "Date"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps16AbsoluteValuable", "init"]
@@ -119,7 +118,6 @@ depends-member:
 - ["Ps9AnyObject", "Bool"]
 - !private ["Ps9AnyObject", "ButtonRow"]
 - !private ["Ps9AnyObject", "CGFloat"]
-- !private ["Ps9AnyObject", "CGPoint"]
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "Cell"]
 - !private ["Ps9AnyObject", "CheckRow"]
@@ -182,7 +180,6 @@ depends-member:
 - !private ["Ps9AnyObject", "clear"]
 - !private ["Ps9AnyObject", "color"]
 - !private ["Ps9AnyObject", "contentMode"]
-- !private ["Ps9AnyObject", "contentOffset"]
 - !private ["Ps9AnyObject", "darkGray"]
 - ["Ps9AnyObject", "delegate"]
 - ["Ps9AnyObject", "dismiss"]
@@ -198,10 +195,7 @@ depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "isAlertAddedInWindow"]
 - ["Ps9AnyObject", "isCasperEditing"]
-- !private ["Ps9AnyObject", "isEditing"]
 - !private ["Ps9AnyObject", "isScrollEnabled"]
-- ["Ps9AnyObject", "keyboardHidden"]
-- ["Ps9AnyObject", "keyboardVisible"]
 - !private ["Ps9AnyObject", "layoutIfNeeded"]
 - !private ["Ps9AnyObject", "length"]
 - !private ["Ps9AnyObject", "localActivityView"]
@@ -358,7 +352,6 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "center"]
 - !private ["PSo15CALayerDelegate", "color"]
 - !private ["PSo15CALayerDelegate", "contentMode"]
-- !private ["PSo15CALayerDelegate", "contentOffset"]
 - !private ["PSo15CALayerDelegate", "font"]
 - !private ["PSo15CALayerDelegate", "frame"]
 - !private ["PSo15CALayerDelegate", "height"]
@@ -390,9 +383,7 @@ depends-member:
 - !private ["V12CoreGraphics7CGFloat", "Stride"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["V12CoreGraphics7CGFloat", "init"]
-- ["VSC7CGPoint", "deinit"]
 - !private ["VSC7CGPoint", "x"]
-- !private ["VSC7CGPoint", "zero"]
 - ["VSC6CGRect", "deinit"]
 - !private ["VSC6CGRect", "height"]
 - !private ["VSC6CGRect", "init"]
@@ -404,7 +395,6 @@ depends-member:
 - ["Ps7CVarArg", "Bool"]
 - !private ["Ps7CVarArg", "ButtonRow"]
 - !private ["Ps7CVarArg", "CGFloat"]
-- !private ["Ps7CVarArg", "CGPoint"]
 - !private ["Ps7CVarArg", "CGRect"]
 - !private ["Ps7CVarArg", "CheckRow"]
 - !private ["Ps7CVarArg", "DateRow"]
@@ -475,7 +465,6 @@ depends-member:
 - !private ["Ps7CVarArg", "clear"]
 - !private ["Ps7CVarArg", "color"]
 - !private ["Ps7CVarArg", "contentMode"]
-- !private ["Ps7CVarArg", "contentOffset"]
 - !private ["Ps7CVarArg", "count"]
 - !private ["Ps7CVarArg", "darkGray"]
 - ["Ps7CVarArg", "delegate"]
@@ -493,10 +482,7 @@ depends-member:
 - ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "isAlertAddedInWindow"]
 - ["Ps7CVarArg", "isCasperEditing"]
-- !private ["Ps7CVarArg", "isEditing"]
 - !private ["Ps7CVarArg", "isScrollEnabled"]
-- ["Ps7CVarArg", "keyboardHidden"]
-- ["Ps7CVarArg", "keyboardVisible"]
 - !private ["Ps7CVarArg", "layoutIfNeeded"]
 - !private ["Ps7CVarArg", "length"]
 - !private ["Ps7CVarArg", "localActivityView"]
@@ -597,7 +583,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "Bool"]
 - !private ["Ps28CustomDebugStringConvertible", "ButtonRow"]
 - !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
-- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
 - !private ["Ps28CustomDebugStringConvertible", "CheckRow"]
 - !private ["Ps28CustomDebugStringConvertible", "DateRow"]
@@ -666,7 +651,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "clear"]
 - !private ["Ps28CustomDebugStringConvertible", "color"]
 - !private ["Ps28CustomDebugStringConvertible", "contentMode"]
-- !private ["Ps28CustomDebugStringConvertible", "contentOffset"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "darkGray"]
 - ["Ps28CustomDebugStringConvertible", "delegate"]
@@ -683,10 +667,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "isAlertAddedInWindow"]
 - ["Ps28CustomDebugStringConvertible", "isCasperEditing"]
-- !private ["Ps28CustomDebugStringConvertible", "isEditing"]
 - !private ["Ps28CustomDebugStringConvertible", "isScrollEnabled"]
-- ["Ps28CustomDebugStringConvertible", "keyboardHidden"]
-- ["Ps28CustomDebugStringConvertible", "keyboardVisible"]
 - !private ["Ps28CustomDebugStringConvertible", "layoutIfNeeded"]
 - !private ["Ps28CustomDebugStringConvertible", "length"]
 - !private ["Ps28CustomDebugStringConvertible", "localActivityView"]
@@ -726,7 +707,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "width"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - !private ["Ps28CustomDebugStringConvertible", "x"]
-- !private ["Ps28CustomDebugStringConvertible", "zero"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
@@ -739,7 +719,6 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "size"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "width"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "x"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
 - !private ["Ps17CustomReflectable", "Index"]
 - !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "IntegerLiteralType"]
@@ -761,12 +740,10 @@ depends-member:
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps17CustomReflectable", "width"]
 - !private ["Ps17CustomReflectable", "x"]
-- !private ["Ps17CustomReflectable", "zero"]
 - !private ["Ps23CustomStringConvertible", "ActivityRow"]
 - ["Ps23CustomStringConvertible", "Bool"]
 - !private ["Ps23CustomStringConvertible", "ButtonRow"]
 - !private ["Ps23CustomStringConvertible", "CGFloat"]
-- !private ["Ps23CustomStringConvertible", "CGPoint"]
 - !private ["Ps23CustomStringConvertible", "CGRect"]
 - !private ["Ps23CustomStringConvertible", "CheckRow"]
 - !private ["Ps23CustomStringConvertible", "DateRow"]
@@ -838,7 +815,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "clear"]
 - !private ["Ps23CustomStringConvertible", "color"]
 - !private ["Ps23CustomStringConvertible", "contentMode"]
-- !private ["Ps23CustomStringConvertible", "contentOffset"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "darkGray"]
 - ["Ps23CustomStringConvertible", "delegate"]
@@ -856,10 +832,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "isAlertAddedInWindow"]
 - ["Ps23CustomStringConvertible", "isCasperEditing"]
-- !private ["Ps23CustomStringConvertible", "isEditing"]
 - !private ["Ps23CustomStringConvertible", "isScrollEnabled"]
-- ["Ps23CustomStringConvertible", "keyboardHidden"]
-- ["Ps23CustomStringConvertible", "keyboardVisible"]
 - !private ["Ps23CustomStringConvertible", "layoutIfNeeded"]
 - !private ["Ps23CustomStringConvertible", "length"]
 - !private ["Ps23CustomStringConvertible", "localActivityView"]
@@ -961,7 +934,6 @@ depends-member:
 - ["Ps9Equatable", "Bool"]
 - !private ["Ps9Equatable", "ButtonRow"]
 - !private ["Ps9Equatable", "CGFloat"]
-- !private ["Ps9Equatable", "CGPoint"]
 - !private ["Ps9Equatable", "CGRect"]
 - !private ["Ps9Equatable", "Cell"]
 - !private ["Ps9Equatable", "CheckRow"]
@@ -1039,7 +1011,6 @@ depends-member:
 - !private ["Ps9Equatable", "clear"]
 - !private ["Ps9Equatable", "color"]
 - !private ["Ps9Equatable", "contentMode"]
-- !private ["Ps9Equatable", "contentOffset"]
 - !private ["Ps9Equatable", "darkGray"]
 - ["Ps9Equatable", "date"]
 - ["Ps9Equatable", "dateTime"]
@@ -1062,10 +1033,7 @@ depends-member:
 - ["Ps9Equatable", "intField"]
 - ["Ps9Equatable", "isAlertAddedInWindow"]
 - ["Ps9Equatable", "isCasperEditing"]
-- !private ["Ps9Equatable", "isEditing"]
 - !private ["Ps9Equatable", "isScrollEnabled"]
-- ["Ps9Equatable", "keyboardHidden"]
-- ["Ps9Equatable", "keyboardVisible"]
 - ["Ps9Equatable", "label"]
 - !private ["Ps9Equatable", "layoutIfNeeded"]
 - !private ["Ps9Equatable", "length"]
@@ -1119,7 +1087,6 @@ depends-member:
 - !private ["Ps9Equatable", "width"]
 - ["Ps9Equatable", "window"]
 - !private ["Ps9Equatable", "x"]
-- !private ["Ps9Equatable", "zero"]
 - ["Ps9Equatable", "zipcodeField"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "Index"]
@@ -1206,7 +1173,6 @@ depends-member:
 - ["Ps8Hashable", "Bool"]
 - !private ["Ps8Hashable", "ButtonRow"]
 - !private ["Ps8Hashable", "CGFloat"]
-- !private ["Ps8Hashable", "CGPoint"]
 - !private ["Ps8Hashable", "CGRect"]
 - !private ["Ps8Hashable", "CheckRow"]
 - !private ["Ps8Hashable", "DateRow"]
@@ -1280,7 +1246,6 @@ depends-member:
 - !private ["Ps8Hashable", "clear"]
 - !private ["Ps8Hashable", "color"]
 - !private ["Ps8Hashable", "contentMode"]
-- !private ["Ps8Hashable", "contentOffset"]
 - !private ["Ps8Hashable", "darkGray"]
 - ["Ps8Hashable", "date"]
 - ["Ps8Hashable", "dateTime"]
@@ -1303,10 +1268,7 @@ depends-member:
 - ["Ps8Hashable", "intField"]
 - ["Ps8Hashable", "isAlertAddedInWindow"]
 - ["Ps8Hashable", "isCasperEditing"]
-- !private ["Ps8Hashable", "isEditing"]
 - !private ["Ps8Hashable", "isScrollEnabled"]
-- ["Ps8Hashable", "keyboardHidden"]
-- ["Ps8Hashable", "keyboardVisible"]
 - ["Ps8Hashable", "label"]
 - !private ["Ps8Hashable", "layoutIfNeeded"]
 - !private ["Ps8Hashable", "length"]
@@ -1488,7 +1450,6 @@ depends-member:
 - !private ["PSo8NSCoding", "clear"]
 - !private ["PSo8NSCoding", "color"]
 - !private ["PSo8NSCoding", "contentMode"]
-- !private ["PSo8NSCoding", "contentOffset"]
 - !private ["PSo8NSCoding", "darkGray"]
 - !private ["PSo8NSCoding", "dismiss"]
 - !private ["PSo8NSCoding", "font"]
@@ -1498,7 +1459,6 @@ depends-member:
 - !private ["PSo8NSCoding", "imageCellView"]
 - !private ["PSo8NSCoding", "imageView"]
 - ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "isEditing"]
 - !private ["PSo8NSCoding", "isScrollEnabled"]
 - !private ["PSo8NSCoding", "layoutIfNeeded"]
 - !private ["PSo8NSCoding", "length"]
@@ -1537,7 +1497,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "dismiss"]
 - !private ["PSo26NSExtensionRequestHandling", "form"]
 - ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "isEditing"]
 - !private ["PSo26NSExtensionRequestHandling", "message"]
 - !private ["PSo26NSExtensionRequestHandling", "present"]
 - !private ["PSo26NSExtensionRequestHandling", "tableView"]
@@ -1554,7 +1513,6 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "ButtonRow"]
 - !private ["CSo8NSObject", "CGFloat"]
-- !private ["CSo8NSObject", "CGPoint"]
 - !private ["CSo8NSObject", "CGRect"]
 - !private ["CSo8NSObject", "CGSize"]
 - !private ["CSo8NSObject", "CheckRow"]
@@ -1625,7 +1583,6 @@ depends-member:
 - !private ["CSo8NSObject", "clear"]
 - !private ["CSo8NSObject", "color"]
 - !private ["CSo8NSObject", "contentMode"]
-- !private ["CSo8NSObject", "contentOffset"]
 - !private ["CSo8NSObject", "darkGray"]
 - ["CSo8NSObject", "deinit"]
 - ["CSo8NSObject", "delegate"]
@@ -1642,10 +1599,7 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "isAlertAddedInWindow"]
 - ["CSo8NSObject", "isCasperEditing"]
-- !private ["CSo8NSObject", "isEditing"]
 - !private ["CSo8NSObject", "isScrollEnabled"]
-- ["CSo8NSObject", "keyboardHidden"]
-- ["CSo8NSObject", "keyboardVisible"]
 - !private ["CSo8NSObject", "layoutIfNeeded"]
 - !private ["CSo8NSObject", "length"]
 - !private ["CSo8NSObject", "localActivityView"]
@@ -1686,7 +1640,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "Bool"]
 - !private ["PSo16NSObjectProtocol", "ButtonRow"]
 - !private ["PSo16NSObjectProtocol", "CGFloat"]
-- !private ["PSo16NSObjectProtocol", "CGPoint"]
 - !private ["PSo16NSObjectProtocol", "CGRect"]
 - !private ["PSo16NSObjectProtocol", "CheckRow"]
 - !private ["PSo16NSObjectProtocol", "DateRow"]
@@ -1747,7 +1700,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "clear"]
 - !private ["PSo16NSObjectProtocol", "color"]
 - !private ["PSo16NSObjectProtocol", "contentMode"]
-- !private ["PSo16NSObjectProtocol", "contentOffset"]
 - !private ["PSo16NSObjectProtocol", "darkGray"]
 - ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "dismiss"]
@@ -1763,10 +1715,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "isAlertAddedInWindow"]
 - ["PSo16NSObjectProtocol", "isCasperEditing"]
-- !private ["PSo16NSObjectProtocol", "isEditing"]
 - !private ["PSo16NSObjectProtocol", "isScrollEnabled"]
-- ["PSo16NSObjectProtocol", "keyboardHidden"]
-- ["PSo16NSObjectProtocol", "keyboardVisible"]
 - !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
 - !private ["PSo16NSObjectProtocol", "length"]
 - !private ["PSo16NSObjectProtocol", "localActivityView"]
@@ -2099,7 +2048,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "center"]
 - !private ["PSo29UIAccessibilityIdentification", "color"]
 - !private ["PSo29UIAccessibilityIdentification", "contentMode"]
-- !private ["PSo29UIAccessibilityIdentification", "contentOffset"]
 - !private ["PSo29UIAccessibilityIdentification", "font"]
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
 - !private ["PSo29UIAccessibilityIdentification", "height"]
@@ -2139,7 +2087,6 @@ depends-member:
 - ["CSo17UIAlertController", "deinit"]
 - !private ["CSo17UIAlertController", "dismiss"]
 - !private ["CSo17UIAlertController", "init"]
-- !private ["CSo17UIAlertController", "isEditing"]
 - !private ["CSo17UIAlertController", "message"]
 - !private ["CSo17UIAlertController", "present"]
 - !private ["CSo17UIAlertController", "view"]
@@ -2156,7 +2103,6 @@ depends-member:
 - !private ["PSo12UIAppearance", "center"]
 - !private ["PSo12UIAppearance", "color"]
 - !private ["PSo12UIAppearance", "contentMode"]
-- !private ["PSo12UIAppearance", "contentOffset"]
 - !private ["PSo12UIAppearance", "font"]
 - !private ["PSo12UIAppearance", "frame"]
 - !private ["PSo12UIAppearance", "height"]
@@ -2196,7 +2142,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "center"]
 - !private ["PSo21UIAppearanceContainer", "color"]
 - !private ["PSo21UIAppearanceContainer", "contentMode"]
-- !private ["PSo21UIAppearanceContainer", "contentOffset"]
 - !private ["PSo21UIAppearanceContainer", "dismiss"]
 - !private ["PSo21UIAppearanceContainer", "font"]
 - !private ["PSo21UIAppearanceContainer", "form"]
@@ -2205,7 +2150,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "imageCellView"]
 - !private ["PSo21UIAppearanceContainer", "imageView"]
 - ["PSo21UIAppearanceContainer", "init"]
-- !private ["PSo21UIAppearanceContainer", "isEditing"]
 - !private ["PSo21UIAppearanceContainer", "isScrollEnabled"]
 - !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
 - !private ["PSo21UIAppearanceContainer", "localActivityView"]
@@ -2267,7 +2211,6 @@ depends-member:
 - ["C6Casper18UICasperController", "Bool"]
 - !private ["C6Casper18UICasperController", "ButtonRow"]
 - !private ["C6Casper18UICasperController", "CGFloat"]
-- !private ["C6Casper18UICasperController", "CGPoint"]
 - !private ["C6Casper18UICasperController", "CGRect"]
 - !private ["C6Casper18UICasperController", "CGSize"]
 - !private ["C6Casper18UICasperController", "CheckRow"]
@@ -2334,9 +2277,7 @@ depends-member:
 - ["C6Casper18UICasperController", "init"]
 - !private ["C6Casper18UICasperController", "isAlertAddedInWindow"]
 - !private ["C6Casper18UICasperController", "isCasperEditing"]
-- ["C6Casper18UICasperController", "keyboardHidden"]
-- ["C6Casper18UICasperController", "keyboardVisible"]
-- !private ["C6Casper18UICasperController", "message"]
+- ["C6Casper18UICasperController", "message"]
 - !private ["C6Casper18UICasperController", "preferredStyle"]
 - ["C6Casper18UICasperController", "present"]
 - !private ["C6Casper18UICasperController", "presentingViewController"]
@@ -2344,7 +2285,7 @@ depends-member:
 - !private ["C6Casper18UICasperController", "round"]
 - !private ["C6Casper18UICasperController", "section"]
 - ["C6Casper18UICasperController", "tintColor"]
-- !private ["C6Casper18UICasperController", "title"]
+- ["C6Casper18UICasperController", "title"]
 - !private ["C6Casper18UICasperController", "window"]
 - ["O6Casper23UICasperControllerStyle", "RawValue"]
 - ["O6Casper23UICasperControllerStyle", "_toAnyHashable"]
@@ -2361,7 +2302,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "dismiss"]
 - !private ["PSo18UIContentContainer", "form"]
 - ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "isEditing"]
 - !private ["PSo18UIContentContainer", "message"]
 - !private ["PSo18UIContentContainer", "present"]
 - !private ["PSo18UIContentContainer", "tableView"]
@@ -2391,7 +2331,6 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "center"]
 - !private ["PSo17UICoordinateSpace", "color"]
 - !private ["PSo17UICoordinateSpace", "contentMode"]
-- !private ["PSo17UICoordinateSpace", "contentOffset"]
 - !private ["PSo17UICoordinateSpace", "font"]
 - !private ["PSo17UICoordinateSpace", "frame"]
 - !private ["PSo17UICoordinateSpace", "height"]
@@ -2430,7 +2369,6 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "center"]
 - !private ["PSo13UIDynamicItem", "color"]
 - !private ["PSo13UIDynamicItem", "contentMode"]
-- !private ["PSo13UIDynamicItem", "contentOffset"]
 - !private ["PSo13UIDynamicItem", "font"]
 - !private ["PSo13UIDynamicItem", "frame"]
 - !private ["PSo13UIDynamicItem", "height"]
@@ -2470,7 +2408,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "center"]
 - !private ["PSo18UIFocusEnvironment", "color"]
 - !private ["PSo18UIFocusEnvironment", "contentMode"]
-- !private ["PSo18UIFocusEnvironment", "contentOffset"]
 - !private ["PSo18UIFocusEnvironment", "dismiss"]
 - !private ["PSo18UIFocusEnvironment", "font"]
 - !private ["PSo18UIFocusEnvironment", "form"]
@@ -2479,7 +2416,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "imageCellView"]
 - !private ["PSo18UIFocusEnvironment", "imageView"]
 - ["PSo18UIFocusEnvironment", "init"]
-- !private ["PSo18UIFocusEnvironment", "isEditing"]
 - !private ["PSo18UIFocusEnvironment", "isScrollEnabled"]
 - !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
 - !private ["PSo18UIFocusEnvironment", "localActivityView"]
@@ -2516,7 +2452,6 @@ depends-member:
 - !private ["PSo11UIFocusItem", "center"]
 - !private ["PSo11UIFocusItem", "color"]
 - !private ["PSo11UIFocusItem", "contentMode"]
-- !private ["PSo11UIFocusItem", "contentOffset"]
 - !private ["PSo11UIFocusItem", "font"]
 - !private ["PSo11UIFocusItem", "frame"]
 - !private ["PSo11UIFocusItem", "height"]
@@ -2587,7 +2522,6 @@ depends-member:
 - !private ["CSo11UIResponder", "center"]
 - !private ["CSo11UIResponder", "color"]
 - !private ["CSo11UIResponder", "contentMode"]
-- !private ["CSo11UIResponder", "contentOffset"]
 - ["CSo11UIResponder", "delegate"]
 - !private ["CSo11UIResponder", "dismiss"]
 - !private ["CSo11UIResponder", "font"]
@@ -2597,7 +2531,6 @@ depends-member:
 - !private ["CSo11UIResponder", "imageCellView"]
 - !private ["CSo11UIResponder", "imageView"]
 - ["CSo11UIResponder", "init"]
-- !private ["CSo11UIResponder", "isEditing"]
 - !private ["CSo11UIResponder", "isScrollEnabled"]
 - !private ["CSo11UIResponder", "layoutIfNeeded"]
 - !private ["CSo11UIResponder", "localActivityView"]
@@ -2636,7 +2569,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "center"]
 - !private ["PSo30UIResponderStandardEditActions", "color"]
 - !private ["PSo30UIResponderStandardEditActions", "contentMode"]
-- !private ["PSo30UIResponderStandardEditActions", "contentOffset"]
 - ["PSo30UIResponderStandardEditActions", "delegate"]
 - !private ["PSo30UIResponderStandardEditActions", "dismiss"]
 - !private ["PSo30UIResponderStandardEditActions", "font"]
@@ -2646,7 +2578,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "imageCellView"]
 - !private ["PSo30UIResponderStandardEditActions", "imageView"]
 - ["PSo30UIResponderStandardEditActions", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "isEditing"]
 - !private ["PSo30UIResponderStandardEditActions", "isScrollEnabled"]
 - !private ["PSo30UIResponderStandardEditActions", "layoutIfNeeded"]
 - !private ["PSo30UIResponderStandardEditActions", "localActivityView"]
@@ -2675,7 +2606,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "valueLabel"]
 - !private ["PSo30UIResponderStandardEditActions", "view"]
 - !private ["CSo12UIScrollView", "backgroundColor"]
-- !private ["CSo12UIScrollView", "contentOffset"]
 - !private ["CSo12UIScrollView", "isScrollEnabled"]
 - !private ["CSo12UIScrollView", "separatorStyle"]
 - !private ["CSo12UIScrollView", "tableHeaderView"]
@@ -2692,7 +2622,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "dismiss"]
 - !private ["PSo16UIStateRestoring", "form"]
 - ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "isEditing"]
 - !private ["PSo16UIStateRestoring", "message"]
 - !private ["PSo16UIStateRestoring", "present"]
 - !private ["PSo16UIStateRestoring", "tableView"]
@@ -2704,7 +2633,6 @@ depends-member:
 - !private ["CSo8UISwitch", "deinit"]
 - !private ["CSo8UISwitch", "onTintColor"]
 - !private ["CSo11UITableView", "backgroundColor"]
-- !private ["CSo11UITableView", "contentOffset"]
 - !private ["CSo11UITableView", "isScrollEnabled"]
 - !private ["CSo11UITableView", "separatorStyle"]
 - !private ["CSo11UITableView", "tableHeaderView"]
@@ -2753,7 +2681,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "center"]
 - !private ["PSo18UITraitEnvironment", "color"]
 - !private ["PSo18UITraitEnvironment", "contentMode"]
-- !private ["PSo18UITraitEnvironment", "contentOffset"]
 - !private ["PSo18UITraitEnvironment", "dismiss"]
 - !private ["PSo18UITraitEnvironment", "font"]
 - !private ["PSo18UITraitEnvironment", "form"]
@@ -2762,7 +2689,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "imageCellView"]
 - !private ["PSo18UITraitEnvironment", "imageView"]
 - ["PSo18UITraitEnvironment", "init"]
-- !private ["PSo18UITraitEnvironment", "isEditing"]
 - !private ["PSo18UITraitEnvironment", "isScrollEnabled"]
 - !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
 - !private ["PSo18UITraitEnvironment", "localActivityView"]
@@ -2799,7 +2725,6 @@ depends-member:
 - !private ["CSo6UIView", "center"]
 - !private ["CSo6UIView", "color"]
 - !private ["CSo6UIView", "contentMode"]
-- !private ["CSo6UIView", "contentOffset"]
 - !private ["CSo6UIView", "font"]
 - !private ["CSo6UIView", "frame"]
 - !private ["CSo6UIView", "height"]
@@ -2834,7 +2759,6 @@ depends-member:
 - !private ["CSo16UIViewController", "dismiss"]
 - !private ["CSo16UIViewController", "form"]
 - ["CSo16UIViewController", "init"]
-- !private ["CSo16UIViewController", "isEditing"]
 - !private ["CSo16UIViewController", "message"]
 - !private ["CSo16UIViewController", "present"]
 - !private ["CSo16UIViewController", "tableView"]
@@ -2922,7 +2846,6 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "color"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentMode"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentOffset"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "height"]
@@ -2988,7 +2911,6 @@ depends-member:
 - ["Ps9_Hashable", "Bool"]
 - !private ["Ps9_Hashable", "ButtonRow"]
 - !private ["Ps9_Hashable", "CGFloat"]
-- !private ["Ps9_Hashable", "CGPoint"]
 - !private ["Ps9_Hashable", "CGRect"]
 - !private ["Ps9_Hashable", "CheckRow"]
 - !private ["Ps9_Hashable", "DateRow"]
@@ -3062,7 +2984,6 @@ depends-member:
 - !private ["Ps9_Hashable", "clear"]
 - !private ["Ps9_Hashable", "color"]
 - !private ["Ps9_Hashable", "contentMode"]
-- !private ["Ps9_Hashable", "contentOffset"]
 - !private ["Ps9_Hashable", "darkGray"]
 - ["Ps9_Hashable", "date"]
 - ["Ps9_Hashable", "dateTime"]
@@ -3085,10 +3006,7 @@ depends-member:
 - ["Ps9_Hashable", "intField"]
 - ["Ps9_Hashable", "isAlertAddedInWindow"]
 - ["Ps9_Hashable", "isCasperEditing"]
-- !private ["Ps9_Hashable", "isEditing"]
 - !private ["Ps9_Hashable", "isScrollEnabled"]
-- ["Ps9_Hashable", "keyboardHidden"]
-- ["Ps9_Hashable", "keyboardVisible"]
 - ["Ps9_Hashable", "label"]
 - !private ["Ps9_Hashable", "layoutIfNeeded"]
 - !private ["Ps9_Hashable", "length"]
@@ -3263,7 +3181,7 @@ depends-nominal:
 - "C6Eureka11ButtonRowOf"
 - "PSo15CALayerDelegate"
 - "V12CoreGraphics7CGFloat"
-- "VSC7CGPoint"
+- !private "VSC7CGPoint"
 - "VSC6CGRect"
 - !private "VSC6CGSize"
 - "Ps7CVarArg"
@@ -3543,4 +3461,4 @@ depends-external:
 - "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers/NukeFLAnimatedImagePlugin-Swift.h"
 - "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers/Nuke-FLAnimatedImage-Plugin-umbrella.h"
 - "/Users/prajaktakulkarni/Documents/My Pods/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Modules/module.modulemap"
-interface-hash: "8f744ce3d8ab7dae95e2cc4a5793ce24"
+interface-hash: "1cfdcc4dd7ee7f0d709b0ea06bfa8dcf"

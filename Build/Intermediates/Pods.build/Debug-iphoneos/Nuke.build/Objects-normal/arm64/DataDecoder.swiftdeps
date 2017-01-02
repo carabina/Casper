@@ -13,23 +13,23 @@ provides-member:
 - ["C4Nuke22DataDecoderComposition", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "..<"
-- !private "UIImage"
-- "URLResponse"
-- !private "BooleanLiteralType"
-- "DataDecoderComposition"
-- "Data"
-- "StringLiteralType"
-- "DispatchQueue"
-- "Image"
-- !private "CastingPrecedence"
-- "AssignmentPrecedence"
-- !private "Bool"
-- !private "UIScreen"
 - "DataDecoder"
 - "DataDecoding"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "UIImage"
+- !private "..<"
 - !private "queue"
+- !private "UIScreen"
+- "DataDecoderComposition"
+- "DispatchQueue"
+- "Image"
 - !private "HTTPURLResponse"
+- "Data"
+- !private "BooleanLiteralType"
+- "StringLiteralType"
+- "URLResponse"
+- !private "Bool"
 depends-member:
 - ["Ps9AnyObject", "decode"]
 - !private ["Ps9AnyObject", "decoders"]

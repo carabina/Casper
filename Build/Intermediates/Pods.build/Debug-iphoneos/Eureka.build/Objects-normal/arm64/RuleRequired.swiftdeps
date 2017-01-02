@@ -7,15 +7,15 @@ provides-member:
 - ["V6Eureka12RuleRequired", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!="
-- "Equatable"
-- "RuleRequired"
-- "RuleType"
 - "String"
-- "StringLiteralType"
+- "Equatable"
 - "ValidationError"
+- "StringLiteralType"
+- "RuleRequired"
 - "CastingPrecedence"
+- !private "!="
 - "TernaryPrecedence"
+- "RuleType"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isEmpty"]

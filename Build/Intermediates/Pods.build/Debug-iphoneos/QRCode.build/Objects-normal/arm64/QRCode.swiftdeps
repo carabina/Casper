@@ -10,23 +10,23 @@ provides-member:
 - ["OV6QRCode6QRCode15ErrorCorrection", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CIColor"
+- "CIImage"
+- "\U0001F533"
+- "=="
+- "AssignmentPrecedence"
+- "Data"
+- !private "Scale"
+- !private "~="
+- "UIImage"
 - "String"
 - "StringLiteralType"
-- !private "/"
 - !private "CIFilter"
-- "CGSize"
-- "QRCode"
-- "\U0001F533"
-- !private "Scale"
-- "URL"
+- !private "/"
 - "UnicodeScalarType"
-- "UIImage"
-- !private "~="
-- "CIImage"
-- "Data"
-- "AssignmentPrecedence"
-- "=="
+- "CIColor"
+- "URL"
+- "QRCode"
+- "CGSize"
 depends-member:
 - !private ["Ps9AnyObject", "data"]
 - !private ["Ps9AnyObject", "extent"]

@@ -10,18 +10,18 @@ provides-member:
 - ["O4Nuke17PromiseResolution", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "PromiseHandlers"
-- "Error"
-- "PromiseState"
-- "AssignmentPrecedence"
-- !private "=="
-- "PromiseResolution"
-- !private "FunctionArrowPrecedence"
 - "Promise"
+- "PromiseHandlers"
+- "PromiseState"
 - "DispatchQueue"
+- !private "FunctionArrowPrecedence"
+- !private "=="
+- "Error"
+- "AssignmentPrecedence"
 - "Void"
-- "Lock"
 - "Bool"
+- "Lock"
+- "PromiseResolution"
 depends-member:
 - ["Ps9AnyObject", "Lock"]
 - !private ["Ps9AnyObject", "Promise"]

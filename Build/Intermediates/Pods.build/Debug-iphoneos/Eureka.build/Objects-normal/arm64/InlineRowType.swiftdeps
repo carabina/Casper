@@ -18,16 +18,16 @@ provides-member:
 - ["P6Eureka13InlineRowType", "onExpandInlineRowCallback"]
 provides-dynamic-lookup:
 depends-top-level:
-- "BaseRow"
-- "BaseInlineRowType"
-- !private "Form"
-- !private "+"
 - !private "??"
+- "BaseInlineRowType"
 - "RowType"
+- "TypedRowType"
+- !private "Form"
+- "InlineRowType"
+- !private "+"
+- "BaseRow"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
-- "InlineRowType"
-- "TypedRowType"
 depends-member:
 - !private ["Ps9AnyObject", "BaseInlineRowType"]
 - ["Ps9AnyObject", "BaseRow"]

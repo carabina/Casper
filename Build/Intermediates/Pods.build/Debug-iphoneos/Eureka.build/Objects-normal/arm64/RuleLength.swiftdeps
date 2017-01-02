@@ -10,17 +10,17 @@ provides-member:
 - ["V6Eureka13RuleMaxLength", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private ">="
-- "ValidationError"
-- "RuleMinLength"
-- "AssignmentPrecedence"
-- "String"
 - !private "Int"
-- !private "<="
-- "RuleMaxLength"
+- !private ">="
 - "UInt"
 - !private "StringLiteralType"
 - "RuleType"
+- "ValidationError"
+- "String"
+- "AssignmentPrecedence"
+- !private "<="
+- "RuleMinLength"
+- "RuleMaxLength"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "init"]

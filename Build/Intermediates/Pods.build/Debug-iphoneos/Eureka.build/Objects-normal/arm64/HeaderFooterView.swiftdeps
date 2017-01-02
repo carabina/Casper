@@ -17,20 +17,20 @@ provides-member:
 provides-dynamic-lookup:
 - "eurekaInvalidate"
 depends-top-level:
-- "Bundle"
-- "UIView"
-- "AssignmentPrecedence"
-- "=="
-- "CastingPrecedence"
-- "CGFloat"
-- "HeaderFooterType"
-- "Section"
-- "String"
-- !private "??"
-- "HeaderFooterViewRepresentable"
-- "HeaderFooterProvider"
 - "HeaderFooterView"
+- "CGFloat"
+- "Bundle"
+- !private "??"
+- "Section"
+- "HeaderFooterViewRepresentable"
+- "HeaderFooterType"
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "UIView"
+- "String"
 - "ExpressibleByStringLiteral"
+- "HeaderFooterProvider"
 depends-member:
 - ["Ps9AnyObject", "eurekaInvalidate"]
 - !private ["Ps9AnyObject", "footerView"]

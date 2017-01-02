@@ -10,22 +10,22 @@ provides-member:
 - ["C6Casper8ImageRow", ""]
 provides-dynamic-lookup:
 - "update"
-- "imageCellView"
 - "setup"
+- "imageCellView"
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "!="
-- "ImageRow"
-- "ImageCell"
 - "CellType"
+- "ImageRow"
+- "Cell"
+- !private "!="
+- !private "StringLiteralType"
+- "ImageCell"
+- "Row"
+- "RowType"
+- "AssignmentPrecedence"
 - "UIImageView"
 - !private "CellProvider"
-- "Cell"
-- "Row"
 - "UIImage"
-- "RowType"
 - "String"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CellProvider"]
 - !private ["Ps9AnyObject", "cellProvider"]

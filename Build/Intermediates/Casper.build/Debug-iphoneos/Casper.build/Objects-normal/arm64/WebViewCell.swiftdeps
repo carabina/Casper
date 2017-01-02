@@ -9,26 +9,26 @@ provides-member:
 - ["C6Casper11WebViewCell", ""]
 - ["C6Casper10WebViewRow", ""]
 provides-dynamic-lookup:
-- "setup"
 - "update"
+- "setup"
 - "webView"
 depends-top-level:
-- !private "CellProvider"
-- "WebViewRow"
-- !private "!="
-- "String"
-- "Cell"
-- !private "StringLiteralType"
-- "WebViewCell"
-- "CastingPrecedence"
-- !private "URL"
 - "Row"
-- "AssignmentPrecedence"
 - "RowType"
+- "Cell"
+- "WebViewRow"
 - "CellType"
-- !private "URLRequest"
+- !private "StringLiteralType"
 - "UIWebView"
+- "WebViewCell"
 - !private "NSURL"
+- !private "URLRequest"
+- "CastingPrecedence"
+- "String"
+- "AssignmentPrecedence"
+- !private "URL"
+- !private "!="
+- !private "CellProvider"
 depends-member:
 - !private ["Ps9AnyObject", "CellProvider"]
 - !private ["Ps9AnyObject", "NSURL"]

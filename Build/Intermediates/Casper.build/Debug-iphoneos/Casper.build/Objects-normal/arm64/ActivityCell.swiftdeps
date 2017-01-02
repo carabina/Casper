@@ -9,22 +9,22 @@ provides-member:
 - ["C6Casper12ActivityCell", ""]
 - ["C6Casper11ActivityRow", ""]
 provides-dynamic-lookup:
-- "setup"
 - "update"
 - "activityView"
+- "setup"
 depends-top-level:
-- "Bool"
-- !private "CellProvider"
-- !private "StringLiteralType"
 - "ActivityCell"
-- "CellType"
-- "AssignmentPrecedence"
-- "UIActivityIndicatorView"
-- "Cell"
-- "String"
-- "ActivityRow"
+- !private "StringLiteralType"
 - "Row"
 - "RowType"
+- "String"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CellProvider"
+- "Cell"
+- "UIActivityIndicatorView"
+- "CellType"
+- "ActivityRow"
 depends-member:
 - ["C6Casper12ActivityCell", "UIActivityIndicatorView"]
 - ["C6Casper12ActivityCell", "activityView"]
